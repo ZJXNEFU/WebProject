@@ -1,0 +1,15 @@
+ span{height:40px; width:40px; display:block; position:relative;} 
+
+.demoSpan1{width:40px; height:40px; display:block;}
+
+.demoSpan1:before{content:''; height:6px; width:24px; display:block; border:3px #333 solid; border-top:0; position:absolute; top:30px; left:5px;}
+
+.demoSpan1:after{content:''; height:24px; width:23px; border-top:5px #333 solid; border-right:5px #333 solid; position:absolute; top:8px; left:6px; transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);}
+#home{
+	float: right;
+	margin: 10px;
+}
+#home:hover{
+	border-color: antiquewhite;
+	background-color: antiquewhite;
+}

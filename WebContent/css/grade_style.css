@@ -1,0 +1,100 @@
+/* CSS Document */
+select{
+	height: 40px;
+	width: 400px;
+	border: 2px solid rgba(255,255,255,0.50);
+	background-color: rgba(255,255,255,0.50);
+	border-radius: 5px;
+	font-size: 18px;
+	color: #2B96EF;
+	text-indent: 10px;
+}
+#grade_nav{
+	float: left;
+	margin-top: 80px;
+	width: 12%;
+	
+}
+#grade_home{
+	width: 50px;
+	height: 50px;
+	margin: 30px auto;
+	background: url(../img/main.png) no-repeat;
+	background-size: 50px 50px;
+	transition: .2s;
+}
+#grade_home:hover{
+	background-image: url(../img/main_txt.png);
+	transition: .2s;
+}
+#grade_grade{
+	width: 50px;
+	height: 50px;
+	margin: 30px auto;
+	background: url(../img/grade.png) no-repeat;
+	background-size: 50px 50px;
+	transition: .2s;
+}
+#grade_grade:hover{
+	background-image: url(../img/grade_txt.png);
+	transition: .2s;
+}
+#grade_deyu{
+	width: 50px;
+	height: 50px;
+	margin: 30px auto;
+	background: url(../img/deyu.png) no-repeat;
+	background-size: 50px 50px;
+	transition: .2s;
+}
+#grade_deyu:hover{
+	background-image: url(../img/deyu_txt.png);
+	transition: .2s;
+}
+#grade_feedback{
+	width: 50px;
+	height: 50px;
+	margin: 30px auto;
+	background: url(../img/feedback.png) no-repeat;
+	background-size: 50px 50px;
+	transition: .2s;
+}
+#grade_feedback:hover{
+	background-image: url(../img/feedback_txt.png);
+	transition: .2s;
+}
+#sql{
+	float: right;
+	width: 85%;
+	height: 500px;
+	margin-top: 80px;
+	text-align: center;
+	border-left: 3px solid white;
+}
+.sel_span{
+	display: inline-block;
+	vertical-align:middle;
+	height: 30px;
+	font-size: 25px;
+}
+.tit{
+	font-size: 40px;
+}
+.sel{
+	height: 40px;
+	vertical-align:middle;
+	margin: 40px 0px;
+}
+#search{
+	width: 480px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border: 1px solid white;
+	background-color: #B28BF1;
+}
+#search:hover{
+	background-color: #A679F0;
+}
+#search:active{
+	background-color: #B08BED;
+}

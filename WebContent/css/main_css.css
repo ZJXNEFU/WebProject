@@ -1,0 +1,176 @@
+/* CSS Document */
+body{
+	font-family: 黑体;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../img/login_bg.png");
+	background-size: cover;
+}
+span{
+	display: inline-block;
+}
+#btq{
+	float: right;
+	height: 60px;
+	width: 150px;;
+	text-align: center;
+}
+#quit{
+	height: 35px;
+	width: 80%;
+	margin-top: 13px;
+	text-align: center;
+}
+#quit:active{
+	width: 78%;
+}
+#user{
+	float: right;
+	height: 60px;
+	width: 150px;
+}
+#name{
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #5B5B5B;
+	width: inherit;
+	text-align: center;
+	margin-top: 20px;
+}
+#tx{
+	float: right;
+	height: 60px;
+	
+}
+#touxiang{
+	border-radius: 100%;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+}
+#left{
+	float: left;
+	height: 100vh;
+	width: 50%;
+}
+#ltop{
+	width: 100%;
+	margin-top: 60px;
+}
+.clear{
+	clear: both;
+}
+#main_tx{
+	float: left;
+	padding-top: 50px;
+	padding-left: 60px;
+}
+#main_touxiang{
+	border-radius: 100%;
+	width: 160px;
+	height: 160px;
+}
+#main_n{
+	float: left;
+	padding-top: 55px;
+	padding-left: 30px;
+	height: 90px;
+	width: 300px;
+	overflow: hidden;
+}
+#main_name{
+	font-size: 65px;
+}
+#main_un{
+	float: left;
+	padding-left: 30px;
+	height: 100px;
+	width: 300px;
+}
+#main_username{
+	font-size: 60px;
+}
+#main_pic{
+	margin-left: 60px;
+	margin-top: 20px;
+	float: left;
+	width: 80%;
+	height: 260px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+#right{
+	float: left;
+	height: 100vh;
+	width: 50%;
+}
+#grade{
+	text-align: center;
+	margin-top: 100px;
+	display: inline-block;
+	width: 90%;
+}
+#bt_grade{
+	margin-top: 80px;
+	height: 220px;
+	width: 95%;
+	border-radius: 20px;
+	font-size: 50px;
+	letter-spacing: 5px;
+	background-color: #B28BF1;
+}
+#bt_grade:hover{
+	background-color: #A679F0;
+}
+#bt_grade:active{
+	background-color: #B08BED;
+	font-size: 49px;
+	width: 94%;
+}
+#deyu{
+	text-align: center;
+	margin: 20px 20px 0px 10px;
+	width: 41%;
+	display: inline-block;
+}
+#bt_deyu{
+	display: inline-block;
+	height: 180px;
+	width: 260px;
+	border-radius: 20px;
+	font-size: 40px;
+	letter-spacing: 5px;
+	background-color: #DCDB48;
+}
+#bt_deyu:hover{
+	background-color: #EFDD42;
+}
+#bt_deyu:active{
+	width: 255px;
+	background-color: #E0CE34;
+	font-size: 39px;
+}
+#feedback{
+	text-align: center;
+	width: 41%;
+	margin: 20px 0 0 0;
+	display: inline-block;
+}
+#bt_feedback{
+	display: inline-block;
+	height: 180px;
+	width: 260px;
+	border-radius: 20px;
+	font-size: 40px;
+	letter-spacing: 5px;
+	background-color: #E06048;
+	margin: 0px 0px 0px 20px;
+}
+#bt_feedback:hover{
+	background-color: #F37259;
+}
+#bt_feedback:active{
+	background-color: #F06449;
+	width: 255px;
+	font-size: 39px;
+}

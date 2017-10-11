@@ -1,0 +1,73 @@
+#tarea{
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	resize: none;
+}
+textarea{
+	padding-top: 10px;
+	margin-bottom: 40px;
+	text-indent: 10px;
+	border: 3px solid white;
+	border-radius: 10px;
+	resize: none;
+	width: 75%;
+	height: 300px;
+	outline: none;
+	font-size: 20px;
+	color: #515151;
+	font-family: 黑体；
+}
+textarea:hover{
+	border-color: #83BEEF;
+}
+textarea:active{
+	border-color: #83BEEF;
+}
+#feedback_text{
+	margin: 200px 0px;
+	color: white;
+	font-size: 60px;
+}
+table{
+	width: 85%;
+	text-indent: 1px;
+	border: 2px solid white;
+	font-family: 黑体;
+	font-size: 15px;
+	margin: auto;
+	border-collapse:collapse;
+	letter-spacing: 1px;
+}
+th{
+	border: 2px solid white;
+	height: 30px;
+}
+td{
+	border: 2px solid white;
+	height: 30px;
+}
+#grade_bt{
+	margin: 30px auto;
+	width: 85%;
+	height: 40px;
+}
+#bt1{
+	width: 100px;
+}
+#bt2{
+	width: 100px;
+}
+#bt3{
+	width: 100px;
+}
+#bt4{
+	width: 100px;
+}
+#page{
+	font-size: 18px;
+}
+
+
+
+
